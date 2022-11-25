@@ -1,0 +1,40 @@
+{
+    "name": "almaNero Content Saver",
+    "description": "almaNeroContent Saver",
+    "logo": "",
+    "keywords": [
+        "Best",
+        "telegram",
+        "save restricted",
+        "bot"
+    ],
+    "repository": "https://github.com/rena0alpha/Gerty/",
+    "website": "",
+    "success_url": "https://github.com/rena0alpha/Gerty/",
+    "env": {
+        "API_HASH": {
+            "description": "Your API HASH from my.telegram.org",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        },
+        "SESSION": {
+            "description": "pyrogram string session.",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+}
